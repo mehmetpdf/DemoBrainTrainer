@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:showDividers="middle"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/timerTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="30s"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/sumTextView"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/bgquestion"
+            android:gravity="center"
+            android:text="12 + 25"
+            android:textColor="#332FA2"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/pointsTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="0/0"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:showDividers="middle">
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:columnCount="2"
+        android:rowCount="2">
+
+        <TextView
+            android:id="@+id/answer1TextView"
+            android:gravity="center"
+            android:text="3"
+            android:textSize="30sp"
+            android:textColor="#332FA2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bgquestion"/>
+
+
+        <TextView
+            android:id="@+id/answer2TextView"
+            android:gravity="center"
+            android:text="3"
+            android:textSize="30sp"
+            android:textColor="#332FA2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bgquestion"/>
+
+    </GridLayout>
+
+
+
+</LinearLayout>

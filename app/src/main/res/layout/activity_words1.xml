@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgapp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In Fight Battle" />
+
+    <LinearLayout
+        android:background="@drawable/bgquestion"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="240dp"
+        android:layout_height="150dp">
+
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/textWellcome"
+            android:textColor="#332FA2"
+            android:textSize="28sp"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="6dp"
+            android:text="Guess Animals in English Language" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText"
+        android:padding="10dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:textColor="#332FA2"
+        android:textSize="32sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/bgpurple"
+        android:layout_width="200dp"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:text="Help Me :( Show Answer"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:id="@+id/buttonStart"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/layoutParent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+</LinearLayout>

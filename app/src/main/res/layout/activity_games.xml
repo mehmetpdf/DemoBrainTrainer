@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgapp"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:id="@+id/imageBoss"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:src="@drawable/icboss"
+        android:layout_width="180dp"
+        android:layout_height="180dp" />
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Select Games :)" />
+
+    <GridLayout
+        android:rowCount="3"
+        android:columnCount="3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="@drawable/bgquestion"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/textWords"
+                android:textColor="#332FA2"
+                android:textSize="15sp"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="6dp"
+                android:text="Words Game" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/bgquestion"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/textMaths"
+                android:textColor="#332FA2"
+                android:textSize="15sp"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="6dp"
+                android:text="Maths Game" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/bgquestion"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/textGame3"
+                android:textColor="#332FA2"
+                android:textSize="15sp"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="6dp"
+                android:text="Game3 Coming Soon!!" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/bgquestion"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/textGame4"
+                android:textColor="#332FA2"
+                android:textSize="15sp"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="6dp"
+                android:text="Game4 Coming Soon!!" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/bgquestion"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/textGame5"
+                android:textColor="#332FA2"
+                android:textSize="15sp"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="6dp"
+                android:text="Game5 Coming Soon!!" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/bgquestion"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/textGame6"
+                android:textColor="#332FA2"
+                android:textSize="15sp"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="6dp"
+                android:text="Game6 Coming Soon!!" />
+
+        </LinearLayout>
+
+
+    </GridLayout>
+
+
+
+
+</LinearLayout>
