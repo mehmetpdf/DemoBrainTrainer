@@ -2,7 +2,6 @@ package com.example.mehmetyilmaz.demobraintrainer;
 
 import android.content.Intent;
 import android.graphics.Typeface;
-import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -14,8 +13,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.net.HttpURLConnection;
-import java.net.URL;
 import java.util.Random;
 
 public class Words1Activity extends AppCompatActivity {
