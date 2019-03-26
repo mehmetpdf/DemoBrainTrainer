@@ -111,7 +111,7 @@ public class Words1Activity extends AppCompatActivity {
         LinearLayout linearLayout = (LinearLayout) findViewById(R.id.layoutParent);
 
         if(editText.getText().toString().equals(answer)){
-//            Toast.makeText(MainActivity.this, "Correct!!", Toast.LENGTH_SHORT).show();
+//            Toast.makeText(MainActivity.this, "Correct!!", Toast.LENGTH_SHORT).show();;
             Intent a = new Intent(Words1Activity.this, ResultActivity.class);
             a.putExtra("whichScreen", String.valueOf(R.layout.activity_words1));
             startActivity(a);
